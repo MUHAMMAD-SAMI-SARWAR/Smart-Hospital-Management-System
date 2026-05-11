@@ -1,10 +1,10 @@
 const mysql = require('mysql2');
 
-// Connection banayein
+
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'root',      // Tumhara MySQL username
-  password: 'Enter your password', // Jo password tumne Workbench mein rakha tha
+  user: 'root',     
+  password: 'Enter your password', 
   database: 'HospitalDB'
 });
 
